@@ -1,4 +1,4 @@
-# 🎾 Snkrs App - React Native
+#  Snkrs App - React Native
 
 
 
