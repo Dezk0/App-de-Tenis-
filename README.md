@@ -1,6 +1,6 @@
-# 🎾 Tennis App - React Native
+# 🎾 Snkrs App - React Native
 
-A modern, feature-rich tennis application built with **React Native**, **TypeScript**, **Android Studio**, **Supabase**, and **JavaScript**. Track matches, manage members, and connect with other tennis players.
+
 
 ## 📱 Project Overview
 
