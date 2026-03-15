@@ -1,79 +1,60 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🎾 Tennis App - React Native
 
-# Getting Started
+A modern, feature-rich tennis application built with **React Native**, **TypeScript**, **Android Studio**, **Supabase**, and **JavaScript**. Track matches, manage members, and connect with other tennis players.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## 📱 Project Overview
 
-## Step 1: Start the Metro Server
+**Languages Used:**
+- JavaScript: 58.5%
+- Kotlin: 11.6% (Android native)
+- Objective-C: 10.4% (iOS native)
+- TypeScript: 9.2%
+- Ruby: 6.7% (Fastlane & CocoaPods)
+- Objective-C++: 3.6%
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+**Tech Stack:**
+- ⚛️ React Native - Cross-platform mobile development
+- 🔵 TypeScript - Type-safe development
+- 🗄️ Supabase - Backend & Database
+- 📧 Email Integration - Contact & notifications
+- 🎨 React Native Navigation - Seamless screen transitions
 
-To start Metro, run the following command from the _root_ of your React Native project:
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+#### **Required:**
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- [React Native CLI](https://reactnative.dev/docs/environment-setup)
+- [Git](https://git-scm.com/)
+
+#### **For Android Development:**
+- [Android Studio](https://developer.android.com/studio) (v4.1 or higher)
+- Android SDK (API Level 23 or higher)
+- Android NDK (for native compilation)
+- Java Development Kit (JDK 11 or higher)
+
+#### **For iOS Development (macOS only):**
+- [Xcode](https://developer.apple.com/xcode/) (v12.0 or higher)
+- Xcode Command Line Tools
+- [CocoaPods](https://cocoapods.org/)
+- iOS Deployment Target: 11.0+
+
+#### **For Supabase:**
+- [Supabase Account](https://supabase.com) (free tier available)
+- Project URL and Anonymous Key
+
+---
+
+## 📦 Installation
+
+### 1. Clone the Repository
 
 ```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+git clone https://github.com/Dezk0/App-de-Tenis-.git
+cd App-de-Tenis-
